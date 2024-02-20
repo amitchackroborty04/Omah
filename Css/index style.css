@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.continar{
+    width: 1166px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 100px;
+}
+nav ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    position: relative;
+}
+
+nav ul li:hover{
+ font-weight: 600;
+}
+
+nav ul li::after{
+    content: '';
+    width: 0px;
+    height: 3PX;
+    position: absolute;
+    border-radius: 5PPX;
+    top:30PX;
+    left: 50%;
+    transform: translateX(-50%);
+    background:#F6762E ;
+    transition: .4s;
+
+
+}
+nav ul li:hover::after{
+    width: 22px;
+}
+/* ============vav end============= */
+/* ==============banner st============ */
+#banner{
+    background-color: #EEEDDE;
+    padding-top: 188px;
+    padding-bottom: 120px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#banner .main_flex{
+    display: flex;
+    justify-content: space-between;
+}
+#banner .banner_left{
+    width: 70%;
+    margin-top: 88px;
+   
+}
+#banner .banner_left h1{
+    font-size: 56px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+}
+.banner_left p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgba(32, 50, 57.5);
+    width: 544px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 24px;
+}
+.banner_left input{
+    width: 508px;
+    padding: 23px ;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 56px;
+    border-radius: 15px;
+    border: none;
+}
+#banner .banner_left input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 15px;
+
+
+}
+#banner .banner_left .inputbox{
+    position: relative;
+    margin-top: 55px;
+}
+#banner .banner_left .banner_icon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+
+}
+#banner .banner_left button{
+    border: none;
+    background-color: #FFFFFF;
+    padding: 19px 41px;
+    border-radius: 15px;
+    color: rgba(32, 50, 57.5);
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+   
+
+
+
+#banner .banner_right{
+    width: 30%;
+   
+}
+/* ============banner end============= */
+/* ============poperti st============= */
+#Properti{
+    background: #FFFFFF;
+    padding: 100px 0;
+}
+#Properti h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    width: 533px;
+    margin-bottom: 64px;
+}
+#Properti .flex3{
+display: flex;
+justify-content: space-between;
+
+}
+#Properti .left{
+    width: 250px;
+    padding: 20px 33px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: .4s;
+   
+}
+#Properti .left:hover{
+  border: 1px solid #EEEDDE;
+}
+
+#Properti .center{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(10, 197, 97);
+}
+
+#Properti .right{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(70, 129, 129);
+}
+#Properti .left_flex{
+    display: flex;
+    justify-content: space-between;
+}
+#Properti .left_flex h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    position: relative;
+    
+}
+#Properti .left_flex h3::after{
+    content: '';
+    width: 8px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #FF7527;
+    position: absolute;
+    top: 0;
+    left: -33px;
+}
+
+#Properti .left_flex h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+
+}
+#Properti .left p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgba(32, 50, 57.5);
+    margin-top: 8px;
+    width: 235px;
+}
+
+#Properti .left a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    width: 235px;
+    text-decoration: none;
+    margin-top: 50px;
+    display: inline-block;
+
+    
+    
+}
+#Properti .left .icon{
+    margin-left: 8px;
+}
+.amit{
+    margin-bottom: 32px;
+}
+
+
+/* =========== popetir end============= */
+/* ==============Residen st============= */
+#Residen{
+    padding-top: 68px;
+    padding-bottom: 163px;
+    background-color: #EEEDDE;
+}
+#Residen .title h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+}
+#Residen .title h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    margin-bottom: 8px;
+
+}
+#Residen .main_flex{
+    display: flex;
+   margin-top: 64px;
+}
+
+#Residen .main_flex .div1{
+    width: 50%;
+    position: relative;
+}
+
+#Residen .main_flex .div2{
+    width: 50%;
+}
+#Residen .div1 .img2{
+    position: absolute;
+    top: 60px;
+    left: 167px;
+}
+#Residen .main_flex .div2 h2{
+    font-size: 36px;
+    font-weight:600 ;
+    width:  507px;
+    line-height: 150%;
+    color: #203239;
+}
+#Residen .main_flex .div2 p{
+    font-size: 16px;
+    font-weight:300 ;
+    line-height: 30px;
+    color: #203239;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.flexbt{
+    display: flex;
+    gap: 48px;
+    position: relative;
+}
+.btn1 a button{
+    padding:13px 41px 13px 77px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#BBBBBB ;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #EEEDDE;
+}
+.btn1 .ci{
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 41px;
+}
+.btn2 a button{
+    padding: 13px 41px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #203239;
+    border-radius: 10px;
+}
+
+/* =============Residen===================== */
+/* ================Residen2 st============== */
+#amit {
+background-color:white;
+padding: 100px 0;
+}
+#amit .title2 h4{
+font-size: 16px;
+font-weight: 500;
+color: #FF7527;
+margin-bottom: 8px;
+}
+#amit .title2 h2{
+font-size: 36px;
+font-weight: 600;
+color: #203239;
+line-height: 150%;
+margin-bottom: 64px;
+}
+#amit .main{
+    display: flex;
+    justify-content: space-between;
+}
+#amit .main .div1{
+    width: 30%;
+}
+
+#amit .main .div1 h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #203239;
+    margin-bottom: 8px;
+}
+#amit .main .div1 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+}
+
+/* =================Residen2 end=============== */
+/* =================Hubungi Kami st============ */
+#last{
+   padding: 100px 0;
+    background-color: #EEEDDE;
+}
+#last .main2{
+    display: flex;
+}
+#last .main2 .div1{
+    width: 50%;
+    
+    
+}
+#last .main2 .div2{
+    width: 50%;
+    
+    
+}
+#last .main2 .div1 h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    margin-top: 48px;
+    margin-bottom: 74px;
+}
+#last .main2 .div1 .main3{
+    display: flex;
+    justify-content: space-between;
+}
+#last .main2 .div1 .main3 .d1{
+    width: 274px;
+    height: 167px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.call1{
+    margin-top: 36px;
+    margin-left: 41px;
+}
+
+#last .main2 .div1 .main3 .d1 .call h5{
+    font-size:16px ;
+    font-weight:500 ;
+    color: #203239;
+}
+#last .main2 .div1 .main3 .d1 .call h6{
+    font-size:16px ;
+    font-weight:400 ;
+    color: #203239;
+}
+.call button{
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin-top: 27px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: black;
+}
+.call{
+ margin-top: 25px;
+ margin-right: 41px;
+
+   
+}
+.div2 .right_main h2{
+    font-size: 36px;
+    font-weight:600;
+    line-height: 150%;
+    color: #203239;
+    margin-bottom: 69px;
+}
+.div2 .right_main{
+    margin-top: 88px;
+    margin-left: 211px;
+}
+
+/* ==================Hubungi Kami end============== */
+/* ========================last nav st========== */
+#nav{
+    padding: 38px;
+    background-color:#203239;
+   
+}
+.continar .nav_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px;
+    /* background-color: aquamarine; */
+}
+.continar .nav_flex ul{
+    display: flex;
+    gap: 64px;
+}
+.continar .nav_flex ul li{
+    list-style: none;
+}
+.ic{
+    color: white;
+}
+.nav_flex img{
+    color: white;
+}
+/*  ================lasr nav end============== */
+#dj{
+    height: 100px;
+}
